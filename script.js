@@ -37,7 +37,7 @@ const CONFIG = {
   assinatura: "[SEU NOME]",               // [SEU NOME] é trocado automaticamente
 
   /* 5) RODAPÉ (um detalhe discreto de TI; pode trocar ou deixar vazio "") */
-  rodape: 'console.log("com carinho");'
+  rodape: 'Eu te amo Princesa!'
 };
 /* ===================== FIM DA PERSONALIZAÇÃO ===================== */
 
