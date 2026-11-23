@@ -1,0 +1,1 @@
+Coloque suas fotos aqui (01.jpg, 02.jpg, ...) e use "fotos/01.jpg" no campo src do CONFIG em surpresa.html.

@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Para você</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,500;0,600;1,500;1,600&family=Nunito+Sans:wght@400;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- ================= 1. ABERTURA ================= -->
+<header class="hero" id="inicio">
+  <div class="wrap">
+    <h1><span id="frase"></span><span class="caret" aria-hidden="true"></span></h1>
+    <p id="intro"></p>
+    <a class="btn" href="#galeria" id="btn-galeria"></a>
+  </div>
+</header>
+
+<!-- ================= 2. GALERIA ================= -->
+<section class="gallery" id="galeria" aria-labelledby="t-galeria">
+  <div class="wrap">
+    <h2 id="t-galeria"></h2>
+    <p class="hint" id="dica"></p>
+    <div class="stage">
+      <button class="arrow" id="prev" aria-label="Foto anterior">&#8592;</button>
+      <div class="viewport" id="viewport" aria-roledescription="carrossel" aria-label="Galeria de lembranças">
+        <div class="track" id="track"></div>
+      </div>
+      <button class="arrow" id="next" aria-label="Próxima foto">&#8594;</button>
+    </div>
+    <p class="counter" id="counter" aria-live="polite">01 / 01</p>
+  </div>
+</section>
+
+<!-- ================= 3. CARTINHA ================= -->
+<section class="letter" id="cartinha" aria-labelledby="t-carta">
+  <div class="wrap">
+    <div class="paper">
+      <h2 id="t-carta"></h2>
+      <div id="corpo-carta"></div>
+      <p class="sign"><small id="despedida"></small><span id="assinatura"></span></p>
+    </div>
+  </div>
+</section>
+
+<footer id="rodape"></footer>
+
+<script src="script.js"></script>
+</body>
+</html>
+
