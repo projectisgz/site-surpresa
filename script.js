@@ -1,48 +1,55 @@
-/* =====================================================================
-   ✏️  PERSONALIZE AQUI — tudo que você precisa trocar está neste bloco
-   ===================================================================== */
+
 const CONFIG = {
 
-  /* 1) NOME DELA e SEU NOME */
-  nomeDela: "[NOME DELA]",
-  seuNome:  "[SEU NOME]",
+  
+  nomeDela: "[Gigica]",
+  seuNome:  "[Igor OZ]",
 
-  /* 2) ABERTURA: frase em destaque, introdução e texto do botão */
-  frase: "Entre tantas linhas da minha vida, você é a minha favorita.",
+  
+  frase: "Com amor e carinho, para a mulher da minha vida.",
   intro: "Reuni aqui algumas lembranças, só para você. Pode vir devagar, sem pressa.",
   textoBotao: "Ver nossas lembranças",
 
-  /* 3) GALERIA
-     - src:  caminho da sua foto (ex.: "fotos/01.jpg"). Deixe "" para usar uma imagem de exemplo.
-     - alt:  descrição da foto (para leitores de tela). Descreva o que aparece nela.
-     - msg:  mensagem curta que aparece no verso quando a foto é virada.
-     Para ter mais ou menos fotos, é só adicionar ou remover blocos { ... }. */
+  
   tituloGaleria: "Nossas lembranças",
   dicaGaleria: "Toque na foto para virar e ler o que está escrito atrás.",
   fotos: [
-    { src: "", alt: "Foto de exemplo 1: troque pela sua foto", msg: "Escreva aqui a mensagem da primeira foto." },
-    { src: "", alt: "Foto de exemplo 2: troque pela sua foto", msg: "Escreva aqui a mensagem da segunda foto." },
-    { src: "", alt: "Foto de exemplo 3: troque pela sua foto", msg: "Escreva aqui a mensagem da terceira foto." },
-    { src: "", alt: "Foto de exemplo 4: troque pela sua foto", msg: "Escreva aqui a mensagem da quarta foto." }
+    { src: "fotos/01.jpeg",alt: "Nossa primeira foto oficial", msg: "Essa foto foi uma das que deram origem a nossa hostória e até hoje lembro da múscia, (ela que me acompanha...)" },
+    { src: "fotos/02.jpeg",alt: "Nosso primeiro ano novo juntos", msg: "Meu primeiro ano novo passando ao seu lado,e posso te assegurar que foi muito especial, eu amo tanto como você está linda nessa foto..."},
+    { src: "fotos/03.jpeg",alt: "Nossa primeira viagem juntos", msg: "Foi um carnaval maravilhoso, cheio de risas amores, beijos e abraços, passar com você seu niver e o carnaval foi tão especial." },
+    { src: "fotos/04.jpeg",alt: "Sua formatura", msg: "Você estava tão bela que meus olhos brilham só de lembrar,esse dia foi um marco para vermos a mulher maravilhosa que você é, por fora e por dentro."},
+    { src: "fotos/05.jpeg",alt: "A grande viagem", msg: "Poder viver o sonho de sair do Brasil ao seu lado foi gratificante, e ver quantas portas você abriu para mim é ainda mais especial, não consigo nem escrever sobre essa nossa viagem..."},
+    { src: "fotos/06.jpeg",alt: ".....", msg:"Como eu amo essa foto, MDS. Seu sorriso, seu cabelo, seu olhar, você é incrível <3"},
+
   ],
 
   /* 4) CARTINHA: título, parágrafos (um texto por linha), despedida e assinatura */
-  tituloCarta: "Para você, [NOME DELA]",   // [NOME DELA] é trocado automaticamente
+  tituloCarta: "Para você, Gigica",
   carta: [
-    "Este é um texto de exemplo. Apague-o e escreva aqui, com as suas palavras, o que você quer dizer a ela.",
-    "Cada linha desta lista vira um parágrafo da cartinha. Adicione ou remova linhas à vontade.",
-    "Termine com o que está no seu coração."
+    "Preparei esta pequena lembrança para você, como uma forma de relembrarmos um pouco de tudo o que construímos até aqui e, principalmente, de tudo o que ainda temos pela frente.",
+    "Ainda temos tantas coisas para viver, tantos planos para realizar e, claro, nossa tão esperada viagem para a Irlanda. Mas, quando paro para pensar em tudo o que já vivemos, são tantas lembranças especiais que fica até difícil escolher por onde começar.",
+    "Como esquecer aquele dia em que passamos inteiro na Disney de Paris, aproveitando, brincando e vivendo cada momento juntos? Foi um dia maravilhoso, daqueles que ficam guardados para sempre. E, sinceramente, eu não poderia ter escolhido uma pessoa melhor para compartilhar esses momentos.",
+    "Como esquecer aquele dia em que passamos inteiro na Disney de Paris, aproveitando, brincando e vivendo cada momento juntos? Foi um dia maravilhoso, daqueles que ficam guardados para sempre. E, sinceramente, eu não poderia ter escolhido uma pessoa melhor para compartilhar esses momentos",
+    "Você é a pessoa que me acolhe, que esteve ao meu lado nos momentos em que estive mais frágil, nas dificuldades e nas situações em que mais precisei de apoio. Como esquecer todas as vezes em que você foi comigo visitar minha mãe, mesmo cansada, mesmo não gostando de pegar ônibus? Ainda assim, você estava lá, porque sabia o quanto aquilo era importante para mim.",
+    "No dia em que caí de moto, você também esteve ao meu lado. E não foi apenas nessa situação, mas em tantas outras em que precisei de um abraço, de apoio ou simplesmente de alguém que estivesse comigo. Você sempre me impulsionou a ser melhor, sempre torceu por mim e sempre demonstrou querer o meu bem. Eu não poderia desejar alguém melhor ao meu lado.",
+    "Gi, eu te amo! Amo tanto que, às vezes, posso acabar parecendo rude. E sei que, em alguns momentos, realmente sou. Mas quero que você saiba que nunca existe a intenção de te machucar ou de fazer você se sentir menos amada. Estou longe de ser perfeito, mas meu sentimento por você é enorme. Você é minha paixão, meu amor e a mulher da minha vida.",
+    "Fico muito animado quando penso em tudo o que ainda vamos viver. Ao mesmo tempo, sou muito feliz e grato por tudo o que já vivemos, pelas conquistas que tivemos, pelas coisas que construímos juntos e até pelas batalhas que enfrentamos. Cada uma dessas experiências faz parte da nossa história e torna tudo ainda mais especial.",
+    "Espero que você nunca tenha dúvidas de que estou aqui para você. Para o que precisar, nos momentos bons, nos difíceis e em tudo o que ainda vier pela frente. Quero continuar sendo seu parceiro, seu apoio e alguém com quem você sempre possa contar.",
+    "Foi por isso que resolvi preparar esta singela homenagem, usando algo que nós dois gostamos tanto: a tecnologia. Inclusive, algo pelo qual você também foi responsável por me incentivar. Acho bonito pensar que até nisso você faz parte da minha história e das coisas que estou construindo.",
+    "Existem tantas coisas que eu poderia falar sobre você que, se colocasse todas em palavras, provavelmente este texto ficaria enorme. São sentimentos e pensamentos que talvez você nem imagine que eu tenha, porque nem sempre consigo me expressar da melhor maneira. Mas tento, à minha forma, demonstrar pelo menos um pouquinho de tudo o que sinto.",
+    
+    "Você é minha princesa, meu amor, e eu quero ser o seu sol, iluminar seus dias e estar ao seu lado por toda a vida.",
+
   ],
   despedida: "Com todo o meu carinho,",
-  assinatura: "[SEU NOME]",               // [SEU NOME] é trocado automaticamente
+  assinatura: "Igor Oz",        
 
-  /* 5) RODAPÉ (um detalhe discreto de TI; pode trocar ou deixar vazio "") */
+  
   rodape: 'Eu te amo Princesa!'
 };
-/* ===================== FIM DA PERSONALIZAÇÃO ===================== */
 
 
-/* --------- A partir daqui é o funcionamento do site (não precisa mexer) --------- */
+
 const $ = id => document.getElementById(id);
 const sub = s => s.replaceAll("[NOME DELA]", CONFIG.nomeDela).replaceAll("[SEU NOME]", CONFIG.seuNome);
 
